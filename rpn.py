@@ -1,8 +1,9 @@
 #! /usr/bin/env python3
 
 def calculate(arg):
-	pass
-
+	stack = []
+	tokens = arg.split()
+	print(tokens)
 
 def main():
 	while True:
@@ -11,5 +12,4 @@ def main():
 
 if __name__ == '__main__':
 	main()
-
 
